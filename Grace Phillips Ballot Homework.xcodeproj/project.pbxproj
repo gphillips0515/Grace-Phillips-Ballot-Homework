@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168A231C24281D4F00AA8031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A231B24281D4F00AA8031 /* AppDelegate.swift */; };
+		168A231E24281D4F00AA8031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A231D24281D4F00AA8031 /* SceneDelegate.swift */; };
+		168A232024281D4F00AA8031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A231F24281D4F00AA8031 /* ViewController.swift */; };
+		168A232324281D4F00AA8031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168A232124281D4F00AA8031 /* Main.storyboard */; };
+		168A232524281D5000AA8031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168A232424281D5000AA8031 /* Assets.xcassets */; };
+		168A232824281D5100AA8031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168A232624281D5100AA8031 /* LaunchScreen.storyboard */; };
+		168A233324281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A233224281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift */; };
+		168A233E24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A233D24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168A232F24281D5100AA8031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168A231024281D4F00AA8031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168A231724281D4F00AA8031;
+			remoteInfo = "Grace Phillips Ballot Homework";
+		};
+		168A233A24281D5100AA8031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168A231024281D4F00AA8031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168A231724281D4F00AA8031;
+			remoteInfo = "Grace Phillips Ballot Homework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168A231824281D4F00AA8031 /* Grace Phillips Ballot Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grace Phillips Ballot Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168A231B24281D4F00AA8031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168A231D24281D4F00AA8031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		168A231F24281D4F00AA8031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168A232224281D4F00AA8031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168A232424281D5000AA8031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168A232724281D5100AA8031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168A232924281D5100AA8031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168A232E24281D5100AA8031 /* Grace Phillips Ballot HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grace Phillips Ballot HomeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168A233224281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grace_Phillips_Ballot_HomeworkTests.swift; sourceTree = "<group>"; };
+		168A233424281D5100AA8031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168A233924281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grace Phillips Ballot HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		168A233D24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grace_Phillips_Ballot_HomeworkUITests.swift; sourceTree = "<group>"; };
+		168A233F24281D5100AA8031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168A231524281D4F00AA8031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168A232B24281D5100AA8031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168A233624281D5100AA8031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168A230F24281D4F00AA8031 = {
+			isa = PBXGroup;
+			children = (
+				168A231A24281D4F00AA8031 /* Grace Phillips Ballot Homework */,
+				168A233124281D5100AA8031 /* Grace Phillips Ballot HomeworkTests */,
+				168A233C24281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests */,
+				168A231924281D4F00AA8031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		168A231924281D4F00AA8031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168A231824281D4F00AA8031 /* Grace Phillips Ballot Homework.app */,
+				168A232E24281D5100AA8031 /* Grace Phillips Ballot HomeworkTests.xctest */,
+				168A233924281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168A231A24281D4F00AA8031 /* Grace Phillips Ballot Homework */ = {
+			isa = PBXGroup;
+			children = (
+				168A231B24281D4F00AA8031 /* AppDelegate.swift */,
+				168A231D24281D4F00AA8031 /* SceneDelegate.swift */,
+				168A231F24281D4F00AA8031 /* ViewController.swift */,
+				168A232124281D4F00AA8031 /* Main.storyboard */,
+				168A232424281D5000AA8031 /* Assets.xcassets */,
+				168A232624281D5100AA8031 /* LaunchScreen.storyboard */,
+				168A232924281D5100AA8031 /* Info.plist */,
+			);
+			path = "Grace Phillips Ballot Homework";
+			sourceTree = "<group>";
+		};
+		168A233124281D5100AA8031 /* Grace Phillips Ballot HomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				168A233224281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift */,
+				168A233424281D5100AA8031 /* Info.plist */,
+			);
+			path = "Grace Phillips Ballot HomeworkTests";
+			sourceTree = "<group>";
+		};
+		168A233C24281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168A233D24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift */,
+				168A233F24281D5100AA8031 /* Info.plist */,
+			);
+			path = "Grace Phillips Ballot HomeworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168A231724281D4F00AA8031 /* Grace Phillips Ballot Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168A234224281D5100AA8031 /* Build configuration list for PBXNativeTarget "Grace Phillips Ballot Homework" */;
+			buildPhases = (
+				168A231424281D4F00AA8031 /* Sources */,
+				168A231524281D4F00AA8031 /* Frameworks */,
+				168A231624281D4F00AA8031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grace Phillips Ballot Homework";
+			productName = "Grace Phillips Ballot Homework";
+			productReference = 168A231824281D4F00AA8031 /* Grace Phillips Ballot Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168A232D24281D5100AA8031 /* Grace Phillips Ballot HomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168A234524281D5100AA8031 /* Build configuration list for PBXNativeTarget "Grace Phillips Ballot HomeworkTests" */;
+			buildPhases = (
+				168A232A24281D5100AA8031 /* Sources */,
+				168A232B24281D5100AA8031 /* Frameworks */,
+				168A232C24281D5100AA8031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168A233024281D5100AA8031 /* PBXTargetDependency */,
+			);
+			name = "Grace Phillips Ballot HomeworkTests";
+			productName = "Grace Phillips Ballot HomeworkTests";
+			productReference = 168A232E24281D5100AA8031 /* Grace Phillips Ballot HomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168A233824281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168A234824281D5100AA8031 /* Build configuration list for PBXNativeTarget "Grace Phillips Ballot HomeworkUITests" */;
+			buildPhases = (
+				168A233524281D5100AA8031 /* Sources */,
+				168A233624281D5100AA8031 /* Frameworks */,
+				168A233724281D5100AA8031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168A233B24281D5100AA8031 /* PBXTargetDependency */,
+			);
+			name = "Grace Phillips Ballot HomeworkUITests";
+			productName = "Grace Phillips Ballot HomeworkUITests";
+			productReference = 168A233924281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168A231024281D4F00AA8031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Grace Phillips";
+				TargetAttributes = {
+					168A231724281D4F00AA8031 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					168A232D24281D5100AA8031 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 168A231724281D4F00AA8031;
+					};
+					168A233824281D5100AA8031 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 168A231724281D4F00AA8031;
+					};
+				};
+			};
+			buildConfigurationList = 168A231324281D4F00AA8031 /* Build configuration list for PBXProject "Grace Phillips Ballot Homework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168A230F24281D4F00AA8031;
+			productRefGroup = 168A231924281D4F00AA8031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168A231724281D4F00AA8031 /* Grace Phillips Ballot Homework */,
+				168A232D24281D5100AA8031 /* Grace Phillips Ballot HomeworkTests */,
+				168A233824281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168A231624281D4F00AA8031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168A232824281D5100AA8031 /* LaunchScreen.storyboard in Resources */,
+				168A232524281D5000AA8031 /* Assets.xcassets in Resources */,
+				168A232324281D4F00AA8031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168A232C24281D5100AA8031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168A233724281D5100AA8031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168A231424281D4F00AA8031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168A232024281D4F00AA8031 /* ViewController.swift in Sources */,
+				168A231C24281D4F00AA8031 /* AppDelegate.swift in Sources */,
+				168A231E24281D4F00AA8031 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168A232A24281D5100AA8031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168A233324281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168A233524281D5100AA8031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168A233E24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168A233024281D5100AA8031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168A231724281D4F00AA8031 /* Grace Phillips Ballot Homework */;
+			targetProxy = 168A232F24281D5100AA8031 /* PBXContainerItemProxy */;
+		};
+		168A233B24281D5100AA8031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168A231724281D4F00AA8031 /* Grace Phillips Ballot Homework */;
+			targetProxy = 168A233A24281D5100AA8031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168A232124281D4F00AA8031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168A232224281D4F00AA8031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168A232624281D5100AA8031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168A232724281D5100AA8031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168A234024281D5100AA8031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		168A234124281D5100AA8031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168A234324281D5100AA8031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXFWKZGR7Q;
+				INFOPLIST_FILE = "Grace Phillips Ballot Homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gphillips.Grace-Phillips-Ballot-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168A234424281D5100AA8031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXFWKZGR7Q;
+				INFOPLIST_FILE = "Grace Phillips Ballot Homework/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gphillips.Grace-Phillips-Ballot-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		168A234624281D5100AA8031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXFWKZGR7Q;
+				INFOPLIST_FILE = "Grace Phillips Ballot HomeworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gphillips.Grace-Phillips-Ballot-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grace Phillips Ballot Homework.app/Grace Phillips Ballot Homework";
+			};
+			name = Debug;
+		};
+		168A234724281D5100AA8031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXFWKZGR7Q;
+				INFOPLIST_FILE = "Grace Phillips Ballot HomeworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gphillips.Grace-Phillips-Ballot-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grace Phillips Ballot Homework.app/Grace Phillips Ballot Homework";
+			};
+			name = Release;
+		};
+		168A234924281D5100AA8031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXFWKZGR7Q;
+				INFOPLIST_FILE = "Grace Phillips Ballot HomeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gphillips.Grace-Phillips-Ballot-HomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grace Phillips Ballot Homework";
+			};
+			name = Debug;
+		};
+		168A234A24281D5100AA8031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YXFWKZGR7Q;
+				INFOPLIST_FILE = "Grace Phillips Ballot HomeworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gphillips.Grace-Phillips-Ballot-HomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grace Phillips Ballot Homework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168A231324281D4F00AA8031 /* Build configuration list for PBXProject "Grace Phillips Ballot Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168A234024281D5100AA8031 /* Debug */,
+				168A234124281D5100AA8031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168A234224281D5100AA8031 /* Build configuration list for PBXNativeTarget "Grace Phillips Ballot Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168A234324281D5100AA8031 /* Debug */,
+				168A234424281D5100AA8031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168A234524281D5100AA8031 /* Build configuration list for PBXNativeTarget "Grace Phillips Ballot HomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168A234624281D5100AA8031 /* Debug */,
+				168A234724281D5100AA8031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168A234824281D5100AA8031 /* Build configuration list for PBXNativeTarget "Grace Phillips Ballot HomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168A234924281D5100AA8031 /* Debug */,
+				168A234A24281D5100AA8031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168A231024281D4F00AA8031 /* Project object */;
+}
