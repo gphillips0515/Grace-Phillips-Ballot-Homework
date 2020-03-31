@@ -15,6 +15,9 @@
 		168A232824281D5100AA8031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168A232624281D5100AA8031 /* LaunchScreen.storyboard */; };
 		168A233324281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A233224281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkTests.swift */; };
 		168A233E24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A233D24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift */; };
+		168A234C24281E4A00AA8031 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A234B24281E4A00AA8031 /* TBViewController.swift */; };
+		168A234E2428217800AA8031 /* voteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A234D2428217800AA8031 /* voteViewController.swift */; };
+		168A23502428218600AA8031 /* resultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A234F2428218600AA8031 /* resultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		168A233924281D5100AA8031 /* Grace Phillips Ballot HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grace Phillips Ballot HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		168A233D24281D5100AA8031 /* Grace_Phillips_Ballot_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grace_Phillips_Ballot_HomeworkUITests.swift; sourceTree = "<group>"; };
 		168A233F24281D5100AA8031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168A234B24281E4A00AA8031 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
+		168A234D2428217800AA8031 /* voteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voteViewController.swift; sourceTree = "<group>"; };
+		168A234F2428218600AA8031 /* resultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				168A231D24281D4F00AA8031 /* SceneDelegate.swift */,
 				168A231F24281D4F00AA8031 /* ViewController.swift */,
 				168A232124281D4F00AA8031 /* Main.storyboard */,
+				168A234B24281E4A00AA8031 /* TBViewController.swift */,
+				168A234D2428217800AA8031 /* voteViewController.swift */,
+				168A234F2428218600AA8031 /* resultsViewController.swift */,
 				168A232424281D5000AA8031 /* Assets.xcassets */,
 				168A232624281D5100AA8031 /* LaunchScreen.storyboard */,
 				168A232924281D5100AA8031 /* Info.plist */,
@@ -261,7 +270,10 @@
 			files = (
 				168A232024281D4F00AA8031 /* ViewController.swift in Sources */,
 				168A231C24281D4F00AA8031 /* AppDelegate.swift in Sources */,
+				168A234C24281E4A00AA8031 /* TBViewController.swift in Sources */,
 				168A231E24281D4F00AA8031 /* SceneDelegate.swift in Sources */,
+				168A234E2428217800AA8031 /* voteViewController.swift in Sources */,
+				168A23502428218600AA8031 /* resultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
